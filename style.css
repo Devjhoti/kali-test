@@ -1,0 +1,66 @@
+.inner-circle1{
+    background-color: yellow;
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: absolute;
+    top:50px;
+    left: 18%;
+
+}
+.inner-circle2{
+    background-color: yellow;
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: absolute;
+    top:50px;
+    left: 64%;
+    
+}
+@keyframes mouth-ud {
+    33.33%{
+        height: 105px;
+        font-size: 0px;
+    }
+    66.66%{
+        height: 110px;
+        font-size: 20px;
+    }
+    99.99%{
+        height: 115px;
+        font-size:40px ;
+    }
+}
+@keyframes bangla {
+    33.33%{
+        
+        font-size: 0px;
+    }
+    66.66%{
+        
+        font-size: 20px;
+    }
+    99.99%{
+        
+        font-size:40px ;
+    }
+}
+.smile{
+    width: 120px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 0 0 400px 400px;
+    position: absolute;
+    bottom:20px;
+    left: 25%;
+    transform-origin: top;
+    animation: mouth-ud 250ms linear infinite alternate; 
+}
+
+p{
+    position: absolute;
+    bottom: 50px;
+    left: 72.5px;
+    animation: bangla 1s ease-in infinite alternate;
+}
